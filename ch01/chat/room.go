@@ -7,5 +7,5 @@ type room struct {
 
 	leave chan *client
 
-	client map[*client]bool
+	clients map[*client]bool
 }
